@@ -24,7 +24,7 @@ def predict_fruit(features):
     return prediction_label, prediction_class
 
 # Konfigurasi Streamlit
-st.title("Aplikasi Prediksi Buah")
+st.title("Aplikasi Prediksi Buah Menggunakan Random Forest")
 st.write("Masukkan fitur buah untuk memprediksi jenis buah.")
 
 # Input pengguna
