@@ -30,7 +30,7 @@ st.write("Masukkan fitur buah untuk memprediksi jenis buah.")
 # Input pengguna
 input_features = []
 for col in X.columns:
-    value = st.number_input(f"Masukkan nilai untuk {col}:", value=0.0)
+    value = st.number_input(f"Masukkan nilai untuk {col}:")
     input_features.append(value)
 
 # Prediksi
